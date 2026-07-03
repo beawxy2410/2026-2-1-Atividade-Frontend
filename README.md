@@ -12,23 +12,23 @@
 ## Checklist (passo a passo da tarefa)
 - [X] 1. Fork desse repositório
 - [X] 2. Colocar o nome nesse arquivo `README.md`, substituindo FIXME por seu nome na linha 10
-- [ ] 3. Criar um projeto next configurando para biome, typescript, tailwindcss
-- [ ] 4. Adicionar a lib [shadcnui](https://ui.shadcn.com/)
-- [ ] 5. Commit com mensagem "criado e configurado app inicial"
-- [ ] 6. Modificar a tela inicial com as seguintes informações
-  - [ ] Nome do aluno (`/src/app/page.tsx`)
-  - [ ] Modificar o título e o ícone da aplicação (`/src/app/layout.tsx`)
-  - [ ] Adicionar link para a página de login
-  - [ ] Commit com a mensagem "Modificado tela e layout inicial"
-- [ ] 7. Adicionar tela de autenticação
-  - [ ] Criar página `/src/app/auth/page.tsx`)
-  - [ ] Adicionar formulário de autenticação
-  - [ ] Use pelo menos 1 dos hooks de estado (useState, useReducer, useForm, etc)
-  - [ ] Verifique / valide apelido e senha
-  - [ ] Autentique usando o dummyjson (ver documentação em https://dummyjson.com/docs/auth)
-  - [ ] Armazene localmente os dados do usuário
-  - [ ] Redirecione para uma página de dashboard, ainda não criada `/dasboard`
-  - [ ] Commit com a mensagem "Criado o login"
+- [X] 3. Criar um projeto next configurando para biome, typescript, tailwindcss
+- [X] 4. Adicionar a lib [shadcnui](https://ui.shadcn.com/)
+- [X] 5. Commit com mensagem "criado e configurado app inicial"
+- [X] 6. Modificar a tela inicial com as seguintes informações
+  - [X] Nome do aluno (`/src/app/page.tsx`)
+  - [X] Modificar o título e o ícone da aplicação (`/src/app/layout.tsx`)
+  - [X] Adicionar link para a página de login
+  - [X] Commit com a mensagem "Modificado tela e layout inicial"
+- [X] 7. Adicionar tela de autenticação
+  - [X] Criar página `/src/app/auth/page.tsx`)
+  - [X] Adicionar formulário de autenticação
+  - [X] Use pelo menos 1 dos hooks de estado (useState, useReducer, useForm, etc)
+  - [X] Verifique / valide apelido e senha
+  - [X] Autentique usando o dummyjson (ver documentação em https://dummyjson.com/docs/auth)
+  - [X] Armazene localmente os dados do usuário
+  - [X] Redirecione para uma página de dashboard, ainda não criada `/dasboard`
+  - [X] Commit com a mensagem "Criado o login"
 - [ ] 8. criar a tela de dashboard
   - [ ] Criar página `/src/app/dashboard/page.tsx`)
   - [ ] Verifique se usuário esta conectado (pode usar middleware.ts)
