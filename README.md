@@ -29,15 +29,15 @@
   - [X] Armazene localmente os dados do usuário
   - [X] Redirecione para uma página de dashboard, ainda não criada `/dasboard`
   - [X] Commit com a mensagem "Criado o login"
-- [ ] 8. criar a tela de dashboard
-  - [ ] Criar página `/src/app/dashboard/page.tsx`)
-  - [ ] Verifique se usuário esta conectado (pode usar middleware.ts)
-  - [ ] Liste os _quotes_ (frases célebres, citações ou ditados) usando o dummyjson (ver documentação https://dummyjson.com/docs/quotes). Cada item deve ter a possibilidade de editar, ver formulário abaixo.
-  - [ ] Crie um formulário para seguir o ciclo de CRUD (criar, atualizar e apagar).
-  - [ ] Verifique / valide frase e autor.
-  - [ ] Armazene localmente os autores para facilitar a digitação no formulário acima.
-  - [ ] Commit com a mensagem "Criado de frases"
-- [ ] 9. Publicar projeto no repositório do github
+- [X] 8. criar a tela de dashboard
+  - [X] Criar página `/src/app/dashboard/page.tsx`)
+  - [X] Verifique se usuário esta conectado (pode usar middleware.ts)
+  - [X] Liste os _quotes_ (frases célebres, citações ou ditados) usando o dummyjson (ver documentação https://dummyjson.com/docs/quotes). Cada item deve ter a possibilidade de editar, ver formulário abaixo.
+  - [X] Crie um formulário para seguir o ciclo de CRUD (criar, atualizar e apagar).
+  - [X] Verifique / valide frase e autor.
+  - [X] Armazene localmente os autores para facilitar a digitação no formulário acima.
+  - [X] Commit com a mensagem "Criado de frases"
+- [X] 9. Publicar projeto no repositório do github
 
 **Lembretes**
 1. Telas devem usar componentes [shadcnui](https://ui.shadcn.com/)
