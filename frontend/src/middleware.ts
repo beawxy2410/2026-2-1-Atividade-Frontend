@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const protectedRoutes = ["/dashboard"]
-const authRoutes = ["/dashboard"]
+const protectedRoutes = ["/dashboard"];
+const authRoutes = ["/auth"];
 
 const AUTH_COOKIE_NAME = "pos-auth-token";
 
@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
 
   const token = request.cookies.get(AUTH_COOKIE_NAME)?.value;
 
-  const isProtected = protectedRoutes.some((route) => 
+  const isProtected = protectedRoutes.some((route) =>
     pathname.startsWith(route),
   );
   const isAuthRoute = authRoutes.some((route) => pathname.startsWith(route));
@@ -20,7 +20,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL("/auth", request.url));
   }
 
-  if (isAuthRoute && !token) {
+  if (isAuthRoute && token) {
     return NextResponse.redirect(new URL("/dashboard", request.url));
   }
 
